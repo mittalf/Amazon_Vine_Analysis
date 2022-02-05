@@ -24,9 +24,7 @@ Tools: Used PySpark to perform the ETL process to extract the dataset, transform
 	
 ### Perform ETL on Amazon Product Reviews
 
-Analysis:
-
-[Amazon_Reviews_ETL_1.ipynb](Amazon_Reviews_ETL_1.ipynb)
+Analysis:Using PySpark notebook and AWS RDS [Amazon_Reviews_ETL_1.ipynb](Amazon_Reviews_ETL_1.ipynb)
 
 - Create an AWS RDS database with tables in pgAdmin 
 - Extract the selected dataset into a DataFrame 
@@ -48,6 +46,6 @@ Unpaid Reviews Summary:
 
 ### Summary
 
-For Major Appliances, there were a total of 35 paid reviews of which 51% (18) were five star reviews. For the same category, there were a total of 4957 unpaid reviews of which 39% (1963) were five star reviews. 
+For Major Appliances, there were a total of 35 paid reviews of which 51% (18) were 5-star reviews. For the same category, there were a total of 4957 unpaid reviews of which 39% (1963) were 5-star reviews. 
 
-There is a bias towards paid reviews in the five star category. In addition to that, the data shows that 88% of the total paid reviews were given either a 4-star or a 5-star rating, while no paid review was given a 1-star rating.   
+There is a bias towards paid reviews in the 5-star category. In addition to that, the data shows that 88% of the total paid reviews were given either a 4-star or a 5-star rating, while no paid review was given a 1-star rating.   
